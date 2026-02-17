@@ -1,5 +1,3 @@
-# irops-command-center
-
 # IROPS Command Center ✈️📊
 
 **Goal:** Build an operations-style decision dashboard to monitor disruption risk, identify delay drivers, and recommend actions.
