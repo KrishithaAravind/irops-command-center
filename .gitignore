@@ -1,0 +1,19 @@
+# --- Data: keep raw + large outputs out of GitHub ---
+data/raw/*
+data/processed/*.parquet
+
+# Keep KPI tables (small + useful for Power BI)
+!data/processed/kpi_tables/
+!data/processed/kpi_tables/*.csv
+
+# Optional: allow small samples in raw
+!data/raw/sample_*.csv
+
+# Jupyter / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
